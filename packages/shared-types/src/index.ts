@@ -9,6 +9,7 @@ export type AIProviderId =
 
 export type ConversationMode = "normal" | "brainstorm";
 export type TurnOrderMode = "ranked" | "random";
+export type LogLevel = "debug" | "info" | "warn" | "error";
 
 export interface ModelInfo {
   id: string;
@@ -31,4 +32,11 @@ export interface RoomModelSelection {
 export interface RoomSettings {
   conversationMode: ConversationMode;
   turnOrderMode: TurnOrderMode;
+}
+
+export interface LogEvent {
+  level: LogLevel;
+  message: string;
+  timestamp: string;
+  context?: Record<string, string | number | boolean | null>;
 }
