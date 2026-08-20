@@ -65,5 +65,11 @@ A user can select a single model to assist with live work using:
 
 The project is intended to support local-first processing where practical while allowing cloud AI providers to be configured by the user.
 
+## Current Status
+
+**Phase 1 — Desktop Foundation is in progress.** The repository now contains the initial PNPM workspace, secure Electron shell, React/Vite renderer, typed preload bridge, shared TypeScript contracts, provider abstraction, minimal API service, structured logging helper, CI foundation, and Phase 1 documentation.
+
+See [`docs/PHASE_1.md`](docs/PHASE_1.md) for the implementation scope and local validation commands.
+
 ## Currently Looking for Contributors
 
