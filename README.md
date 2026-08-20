@@ -65,6 +65,5 @@ A user can select a single model to assist with live work using:
 
 The project is intended to support local-first processing where practical while allowing cloud AI providers to be configured by the user.
 
-## Looking for Contributors
+## Currently Looking for Contributors
 
-#currently looking for contributors
