@@ -1,2 +1,3 @@
 # MODEL_HUB
-ai group-chat
+#currently looking for contributors
+
